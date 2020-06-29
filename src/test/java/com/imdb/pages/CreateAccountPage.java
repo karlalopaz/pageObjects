@@ -1,17 +1,25 @@
 package com.imdb.pages;
 
-public class CreateAccountPage {
-// atributos
-//    PantallaFormularioCrearCuenta:
-//    campoName: id="ap_customer_name"
-//    campoEmail: id="ap_email"
-//    campoPassword:  id="ap_password"
-//    campoReenterPassword:  id="ap_password_check"
-//    botonCreateImdbAccount:  id="continue"
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
-    //Constructor
+public class CreateAccountPage
+{
 
+    public WebDriver driver;
 
-    //comportamiento
-    //crearCuenta(x, y, z)
+    WebElement campoNombre; // id="ap_customer_name"
+    WebElement campoEmail; // id="ap_email"
+    WebElement campoPassword; // id="ap_password"password_check"
+    WebElement campoConfirmar; // id="continue"
+    WebElement botonCrearCuenta; //    id="ap_
+
+    public CreateAccountPage(WebDriver driver)
+    {
+        this.driver = driver;
+    }
+    public void crearCuenta(String name, String email, String password)
+    {
+    }
 }
+

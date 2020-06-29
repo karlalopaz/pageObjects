@@ -16,7 +16,8 @@ public class HomePage {
     //labelNombreUsuario: css="label.imdb-header__account-toggle--logged-in ~ label"
 
     //Constructor
-    public HomePage(WebDriver driverBaseTest) {
+    public HomePage(WebDriver driverBaseTest)
+    {
         this.driver = driverBaseTest;
     }
 
@@ -29,6 +30,14 @@ public class HomePage {
 
     }
 
-    //verificarLogin(x)
+    public void clickSignIn(){
+
+    }
+
+    public void verificarNombreUsuario(String name){
+
+    }
+
+
 
 }
